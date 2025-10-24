@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Richard Pauly</title>
+  <meta name="description" content="Personal portfolio website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#top">RP</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#internship">Internship</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#strengths">Strengths</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn--accent small" href="./Resume.pdf" download>Resume</a>
+      </div>
+    </div>
+    <div class="site-progress" aria-hidden="true"></div>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="hero__content container">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1 class="hero__title" id="name">Richard Pauly</h1>
+      <p class="hero__subtitle" id="roles">Computer Engineer | AI & Software Developer | UI/UX Designer</p>
+      <p class="hero__intro">Blending creativity and code to build smart, sustainable, and user-friendly solutions.</p>
+      <div class="hero__actions">
+        <a class="btn btn--accent" href="./Resume.pdf" download aria-label="Download Resume PDF">View Resume</a>
+        <a class="btn" href="#contact">Contact Me</a>
+        <a class="btn" id="link-hero-linkedin" href="https://www.linkedin.com/in/richard-pauly-79b027254" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" id="link-hero-github" href="https://github.com/Richard972004" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="hero__image">
+      <img class="img--crop-watermark" src="./my image latest.png" alt="Profile" loading="eager" decoding="async" />
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">👤</span> Career Objective</h2>
+        <p id="about">Possess a strong foundation in programming (Python, Core Java, C, MySQL) complemented by expertise in UI/UX design, enabling the development of innovative and user-centric solutions. Proficiency in Al-driven tools allows integration of intelligence and efficiency into modern systems, while technical expertise, creativity, and problem-solving skills are applied to address complex challenges and deliver impactful results that contribute to both project success and organizational growth. Commitment to continuous learning and adaptation to emerging technologies ensures long-term value in the field of computer engineering.</p>
+        
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">🎓</span> Education</h2>
+        <div id="education" class="timeline">
+          <div class="timeline-item" data-hover="CGPA 7.4 • Keep Learning 🚀">
+            <h3>CMS College of Engineering and Technology — 2022–2026</h3>
+            <p class="meta">Bachelor of Engineering – Computer Science and Engineering</p>
+            <p class="meta">CGPA: 7.4</p>
+          </div>
+          <div class="timeline-item" data-hover="Bio-Maths • 86.7% • Growth Mindset 🌱">
+            <h3>Nirmala Matha Convent Matriculation Higher Secondary School — 2020–2022</h3>
+            <p class="meta">Higher Secondary Certificate (HSC) – Bio-Maths Stream</p>
+            <p class="meta">Percentage: 86.7%</p>
+          </div>
+          <div class="timeline-item" data-hover="Solid Foundation • 96.2% ⭐">
+            <h3>Nirmala Matha Convent Matriculation Higher Secondary School — 2020</h3>
+            <p class="meta">Secondary School Leaving Certificate (SSLC)</p>
+            <p class="meta">Percentage: 96.2%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">🚀</span> Projects</h2>
+        <div class="cards projects-grid">
+          <article class="card card--interactive card--mosckill">
+            <div class="card__media" role="img" aria-label="MOSCKILL – Sensor-Integrated Mosquito Killer System">
+              <div class="media-placeholder" aria-hidden="true">🦟⚡</div>
+            </div>
+            <div class="card__body">
+              <h3>🦟 MOSCKILL – Sensor-Integrated Mosquito Killer System</h3>
+              <p><strong>Duration:</strong> 45 Days</p>
+              <p>Developed an IoT-based mosquito killer integrating microcontrollers with Embedded C and Python. Features real-time detection, automated mesh activation, and signal processing for precision; designed for scalability and sustainability.</p>
+              <ul class="tags"><li>IoT</li><li>Embedded C</li><li>Python</li></ul>
+            </div>
+          </article>
+
+          <article class="card card--interactive card--pill">
+            <div class="card__media" role="img" aria-label="IoT Pill Dispenser Project">
+              <div class="media-placeholder" aria-hidden="true">💊⌛</div>
+            </div>
+            <div class="card__body">
+              <h3>💊 Pill Dispenser – IoT-Based Automated Medication System</h3>
+              <p><strong>Role:</strong> Hardware & Software</p>
+              <p>Designed an IoT-connected pill dispenser that schedules doses, alerts users, and logs adherence. Built with microcontrollers (Embedded C), Python data processing, and a clean UI for control and monitoring.</p>
+              <ul class="tags"><li>IoT</li><li>Embedded C</li><li>Python</li><li>UI/UX</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">🧠</span> Skills</h2>
+        <div class="cards">
+          <article class="card card--programming">
+            <h3>Programming</h3>
+            <ul class="skill-list" id="skills-programming">
+              <li data-icon="🐍">Python</li>
+              <li data-icon="☕">Core Java</li>
+              <li data-icon="🅲">C</li>
+              <li data-icon="💾">MySQL</li>
+            </ul>
+          </article>
+          <article class="card card--design">
+            <h3>Design Tools</h3>
+            <ul class="skill-list">
+              <li data-icon="🎨">Figma</li>
+              <li data-icon="🧩">UI/UX</li>
+            </ul>
+          </article>
+          <article class="card card--ai-tools">
+            <h3>AI Tools</h3>
+            <ul class="skill-list">
+              <li data-icon="🤖">Grok AI</li>
+              <li data-icon="🤖">Gamma</li>
+              <li data-icon="🤖">Napkin AI</li>
+              <li data-icon="🤖">ChatGPT</li>
+              <li data-icon="📓">Notebook</li>
+              <li data-icon="⚙️">Curzor</li>
+              <li data-icon="❤️">Lovable</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="internship">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">💼</span> Internship</h2>
+        <div id="experience" class="timeline">
+          <div class="timeline-item">
+            <h3>Data Analytics Intern – Coimbatore</h3>
+            <p class="meta">Duration: 45 Days</p>
+            <ul>
+              <li>Collected, cleaned, and structured large datasets ensuring accuracy and reliability.</li>
+              <li>Utilized Python, SQL, and Excel for data wrangling and statistical modeling.</li>
+              <li>Built interactive dashboards to visualize insights and support decision-making.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certifications" id="certifications">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">📜</span> Certifications</h2>
+        <div class="cards certs-grid">
+          <a class="cert-card cert-card--link" href="./Oracle certificate.pdf" target="_blank" rel="noopener" aria-label="Open Oracle certificate PDF">
+            <h3>Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate</h3>
+            <p class="cert-hint">Click to view certificate</p>
+          </a>
+          <a class="cert-card cert-card--link" href="./IBM Skill build Certificate.pdf" target="_blank" rel="noopener" aria-label="Open IBM SkillBuild certificate PDF">
+            <h3>IBM SkillBuild Certification – Cloud, AI, and Emerging Technologies</h3>
+            <p class="cert-hint">Click to view certificate</p>
+          </a>
+          <a class="cert-card cert-card--link" href="./Mango DB Certificate.pdf" target="_blank" rel="noopener" aria-label="Open MongoDB certificate PDF">
+            <h3>MongoDB Certification – CRUD Operations and Database Design</h3>
+            <p class="cert-hint">Click to view certificate</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">🏆</span> Achievements</h2>
+        <div class="cards achieve-grid">
+          <article class="achieve-card" aria-label="ICMDPET 2K25 Winner">
+            <span class="badge" aria-hidden="true">🏆</span>
+            <h3>ICMDPET 2K25 – 1st Prize</h3>
+            <p>Pill Dispenser – Paper Presentation</p>
+          </article>
+          <article class="achieve-card" aria-label="Sudoku Competition 3rd Place">
+            <span class="badge" aria-hidden="true">🧩</span>
+            <h3>Sudoku Competition – 3rd Place</h3>
+            <p>Logic and pattern-solving event</p>
+          </article>
+          <article class="achieve-card" aria-label="District Level Winner">
+            <span class="badge" aria-hidden="true">🥇</span>
+            <h3>District Level – 1st Prize</h3>
+            <p>Grade 8, Nirmala Matha Convent School</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="strengths" id="strengths">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">⚡</span> Strengths</h2>
+        <div class="cards strengths-grid">
+          <article class="strength-card" data-icon="🧠" aria-label="Problem-solving and analytics">
+            <h3>Problem-Solving & Analytics</h3>
+            <p>Break down complex problems and design robust, data-driven solutions.</p>
+          </article>
+          <article class="strength-card" data-icon="🎨" aria-label="Creative UI/UX design">
+            <h3>Creative UI/UX</h3>
+            <p>Blend aesthetics with usability to craft intuitive interfaces.</p>
+          </article>
+          <article class="strength-card" data-icon="⚙️" aria-label="Adaptability to tools and tech">
+            <h3>Adaptable to Tools</h3>
+            <p>Quickly learn and apply new frameworks, libraries, and platforms.</p>
+          </article>
+          <article class="strength-card" data-icon="🚀" aria-label="Innovation and continuous learning">
+            <h3>Innovative & Always Learning</h3>
+            <p>Continuously iterate, experiment, and grow with emerging tech.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2><span class="h2-icon" aria-hidden="true">✉️</span> Get in Touch</h2>
+        <p class="contact-intro">You can contact me using the details below. I’m open to internships, collaborations, and opportunities in software development, AI, and UI/UX.</p>
+        <div class="contact__grid">
+          <div>
+            <p><strong>Email:</strong> <a id="email" href="mailto:richardpauly2004@gmail.com">richardpauly2004@gmail.com</a></p>
+            <p><strong>Mobile:</strong> <span id="phone">+91 94429 20732</span></p>
+            <p><strong>Office address:</strong> <span id="address">Coimbatore, Tamil Nadu</span></p>
+          </div>
+          <div class="socials">
+            <a id="link-github" href="#" aria-label="GitHub">GitHub</a>
+            <a id="link-linkedin" href="#" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> <span id="footer-name">Richard Pauly</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script>
+    (function(){
+      const bar = document.querySelector('.site-progress');
+      if(!bar) return;
+      const update = () => {
+        const h = document.documentElement;
+        const max = h.scrollHeight - h.clientHeight;
+        const pct = max > 0 ? (h.scrollTop / max) * 100 : 0;
+        bar.style.setProperty('--w', pct.toFixed(2) + '%');
+      };
+      update();
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+    })();
+  </script>
+  <script>
+    // Cursor-follow glow for interactive project cards
+    (function(){
+      const projCards = document.querySelectorAll('.card--interactive');
+      projCards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          card.style.setProperty('--mx', x + 'px');
+          card.style.setProperty('--my', y + 'px');
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.removeProperty('--mx');
+          card.style.removeProperty('--my');
+        });
+      });
+
+      // Holographic border + tilt for certification cards
+      const certCards = document.querySelectorAll('.cert-card');
+      certCards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          // For holographic border
+          card.style.setProperty('--cx', x + 'px');
+          card.style.setProperty('--cy', y + 'px');
+          // For tilt
+          const midX = rect.width / 2; const midY = rect.height / 2;
+          const rotateMax = 6; // degrees
+          const tiltX = ((x - midX) / midX) * rotateMax; // rotateY
+          const tiltY = -((y - midY) / midY) * rotateMax; // rotateX
+          card.style.setProperty('--tiltX', tiltX.toFixed(2) + 'deg');
+          card.style.setProperty('--tiltY', tiltY.toFixed(2) + 'deg');
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.removeProperty('--cx');
+          card.style.removeProperty('--cy');
+          card.style.setProperty('--tiltX', '0deg');
+          card.style.setProperty('--tiltY', '0deg');
+        });
+      });
+
+      // Cursor-follow glow + tilt for internship timeline items
+      const timelineItems = document.querySelectorAll('.timeline-item');
+      timelineItems.forEach(item => {
+        item.addEventListener('mousemove', (e) => {
+          const rect = item.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          // ripple origin
+          item.style.setProperty('--rx', x + 'px');
+          item.style.setProperty('--ry', y + 'px');
+          // retrigger ripple animation
+          item.classList.remove('rippling');
+          // force reflow
+          void item.offsetWidth;
+          item.classList.add('rippling');
+          // subtle tilt
+          const midX = rect.width / 2; const midY = rect.height / 2;
+          const rotateMax = 4; // degrees
+          const tX = ((x - midX) / midX) * rotateMax; // rotateY
+          const tY = -((y - midY) / midY) * rotateMax; // rotateX
+          item.style.setProperty('--itTiltX', tX.toFixed(2) + 'deg');
+          item.style.setProperty('--itTiltY', tY.toFixed(2) + 'deg');
+        });
+        item.addEventListener('mouseleave', () => {
+          item.style.removeProperty('--rx');
+          item.style.removeProperty('--ry');
+          item.classList.remove('rippling');
+          item.style.setProperty('--itTiltX', '0deg');
+          item.style.setProperty('--itTiltY', '0deg');
+        });
+      });
+
+      // Firework sparks for achievement cards
+      const achieveCards = document.querySelectorAll('.achieve-card');
+      achieveCards.forEach(card => {
+        let last = 0;
+        card.addEventListener('mousemove', (e) => {
+          // cursor vars for holo border + tilt
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          card.style.setProperty('--ax', x + 'px');
+          card.style.setProperty('--ay', y + 'px');
+          const midX = rect.width / 2; const midY = rect.height / 2;
+          const rotateMax = 5;
+          const tX = ((x - midX) / midX) * rotateMax; // rotateY
+          const tY = -((y - midY) / midY) * rotateMax; // rotateX
+          card.style.setProperty('--aTiltX', tX.toFixed(2) + 'deg');
+          card.style.setProperty('--aTiltY', tY.toFixed(2) + 'deg');
+          const now = performance.now();
+          if (now - last < 60) return; // throttle ~16fps -> 60ms for fewer nodes
+          last = now;
+          // Create a small burst (3-5 sparks)
+          const count = 3 + Math.floor(Math.random() * 3);
+          for (let i = 0; i < count; i++) {
+            const spark = document.createElement('div');
+            spark.className = 'spark';
+            // random direction vector
+            const angle = Math.random() * Math.PI * 2;
+            const dist = 30 + Math.random() * 60; // px
+            const dx = Math.cos(angle) * dist;
+            const dy = Math.sin(angle) * dist;
+            spark.style.setProperty('--x', x + 'px');
+            spark.style.setProperty('--y', y + 'px');
+            spark.style.setProperty('--dx', dx.toFixed(1) + 'px');
+            spark.style.setProperty('--dy', dy.toFixed(1) + 'px');
+            card.appendChild(spark);
+            spark.addEventListener('animationend', () => spark.remove());
+            // Fallback removal
+            setTimeout(() => spark.remove(), 800);
+          }
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.removeProperty('--ax');
+          card.style.removeProperty('--ay');
+          card.style.setProperty('--aTiltX', '0deg');
+          card.style.setProperty('--aTiltY', '0deg');
+        });
+      });
+
+      // Strength cards: cursor-reactive holo border + tilt
+      const strengthCards = document.querySelectorAll('.strength-card');
+      strengthCards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          card.style.setProperty('--sx', x + 'px');
+          card.style.setProperty('--sy', y + 'px');
+          const midX = rect.width / 2; const midY = rect.height / 2;
+          const rotateMax = 5;
+          const tX = ((x - midX) / midX) * rotateMax; // rotateY
+          const tY = -((y - midY) / midY) * rotateMax; // rotateX
+          card.style.setProperty('--sTiltX', tX.toFixed(2) + 'deg');
+          card.style.setProperty('--sTiltY', tY.toFixed(2) + 'deg');
+        });
+        card.addEventListener('mouseleave', () => {
+          card.style.removeProperty('--sx');
+          card.style.removeProperty('--sy');
+          card.style.setProperty('--sTiltX', '0deg');
+          card.style.setProperty('--sTiltY', '0deg');
+        });
+      });
+    })();
+  </script>
+  <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  <script>
+    (async function () {
+      try {
+        const pdfjsLib = window['pdfjs-dist/build/pdf'];
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
+        const url = './Resume.pdf';
+        const loadingTask = pdfjsLib.getDocument(url);
+        const pdf = await loadingTask.promise;
+
+        let fullText = '';
+        for (let p = 1; p <= pdf.numPages; p++) {
+          const page = await pdf.getPage(p);
+          const content = await page.getTextContent();
+          const strings = content.items.map(i => (i.str || '').trim());
+          fullText += strings.join('\n') + '\n';
+        }
+
+        const text = fullText
+          .split('\n')
+          .map(s => s.trim())
+          .filter(Boolean)
+          .join('\n');
+
+        const pick = (regex) => {
+          const m = text.match(regex);
+          return m ? (m[1] || m[0]).trim() : '';
+        };
+
+        const email = pick(/[\w.+-]+@[\w-]+\.[\w.-]+/i);
+        const phone = pick(/(\+?\d[\d\s().-]{7,}\d)/);
+        const linkedIn = pick(/(https?:\/\/([\w.-]+\.)?linkedin\.com\/[\w\/-]+)/i);
+        const github = pick(/(https?:\/\/([\w.-]+\.)?github\.com\/[\w\/-]+)/i);
+
+        let name = '';
+        const nameLine = text.split('\n')[0] || '';
+        if (nameLine && nameLine.length <= 60) name = nameLine;
+        if (!name) name = pick(/^([A-Z][A-Za-z\s'.-]{2,})$/m);
+
+        const roles = pick(/\b(Java|Full\s*Stack|Frontend|Backend|UI\/UX|Designer|Developer|Engineer|Data|Cloud|DevOps|Mobile)[^\n]{0,60}/i);
+
+        const aboutBlock = (() => {
+          const markers = [/summary/i, /profile/i, /objective/i, /about/i];
+          for (const mk of markers) {
+            const idx = text.search(mk);
+            if (idx >= 0) {
+              const tail = text.slice(idx);
+              const lines = tail.split('\n').slice(1, 8);
+              return lines.join(' ');
+            }
+          }
+          return '';
+        })();
+
+        const skillsBlock = (() => {
+          const m = text.match(/(skills|technical\s+skills|skills\s+summary)\s*[:\-]?\s*([\s\S]{0,600})/i);
+          if (!m) return '';
+          const chunk = m[2].split(/\n\s*\n/)[0];
+          return chunk.replace(/\n/g, ', ');
+        })();
+
+        const experienceItems = (() => {
+          const lines = text.split('\n');
+          const items = [];
+          let current = null;
+          for (const ln of lines) {
+            if (/\b(Experience|Work\s+Experience|Professional\s+Experience)\b/i.test(ln)) {
+              current = { title: '', meta: '', bullets: [] };
+              continue;
+            }
+            if (/\b(\d{4})\b/.test(ln) && /\b(Engineer|Developer|Designer|Manager|Lead|Intern|Analyst)\b/i.test(ln)) {
+              if (current && (current.title || current.bullets.length)) items.push(current);
+              current = { title: ln, meta: '', bullets: [] };
+            } else if (/•|^-\s/.test(ln)) {
+              if (!current) current = { title: '', meta: '', bullets: [] };
+              current.bullets.push(ln.replace(/^[-•]\s?/, ''));
+            }
+          }
+          if (current && (current.title || current.bullets.length)) items.push(current);
+          return items.slice(0, 4);
+        })();
+
+        const educationItems = (() => {
+          const lines = text.split('\n');
+          const items = [];
+          let inEdu = false;
+          let buffer = [];
+          const sectionBreak = /\b(Experience|Projects?|Skills|Certifications?|Achievements?|Profiles?)\b/i;
+          for (let i = 0; i < lines.length; i++) {
+            const ln = lines[i];
+            if (!inEdu && /\bEducation\b/i.test(ln)) { inEdu = true; continue; }
+            if (inEdu) {
+              if (!ln.trim()) { if (buffer.length) break; else continue; }
+              if (sectionBreak.test(ln)) break;
+              buffer.push(ln.trim());
+            }
+          }
+          // Convert buffered lines into entries. Heuristics: group every 2-3 lines (Degree, Institution, Meta)
+          const rows = [];
+          let temp = [];
+          buffer.forEach(l => {
+            temp.push(l);
+            if (temp.length >= 3 || /(\d{4})|(CGPA|GPA|Percent)/i.test(l)) { rows.push(temp); temp = []; }
+          });
+          if (temp.length) rows.push(temp);
+
+          rows.forEach(r => {
+            const title = (r[0] || '').trim();
+            const institution = (r[1] || '').trim();
+            const meta = (r[2] || '').trim();
+            if (title || institution || meta) {
+              items.push({ title: [title, institution].filter(Boolean).join(' – '), meta, bullets: [] });
+            }
+          });
+          return items.slice(0, 5);
+        })();
+
+        if (name) {
+          document.getElementById('name').textContent = name;
+          document.getElementById('footer-name').textContent = name;
+          document.title = `Portfolio – ${name}`;
+        }
+        if (roles) document.getElementById('roles').textContent = roles;
+        const aboutEl = document.getElementById('about');
+        const currentAbout = (aboutEl && aboutEl.textContent || '').trim();
+        const placeholderAbout = /\[your profession\]|\[location\]|\[skills\/stack\]/i.test(currentAbout);
+        if (aboutBlock && placeholderAbout) aboutEl.textContent = aboutBlock;
+        if (email) {
+          const a = document.getElementById('email');
+          a.textContent = email; a.href = 'mailto:' + email;
+        }
+        if (phone) document.getElementById('phone').textContent = phone;
+        if (skillsBlock) {
+          const skills = skillsBlock.split(/[,;•\n]+/).map(s => s.trim()).filter(Boolean).slice(0, 24);
+          const ul = document.getElementById('skills');
+          ul.innerHTML = '';
+          skills.forEach(s => { const li = document.createElement('li'); li.textContent = s; ul.appendChild(li); });
+        }
+        if (linkedIn) { const el = document.getElementById('link-linkedin'); el.href = linkedIn; el.textContent = 'LinkedIn'; }
+        if (github) { const el = document.getElementById('link-github'); el.href = github; el.textContent = 'GitHub'; }
+
+        if (educationItems.length) {
+          const edu = document.getElementById('education');
+          if (edu && edu.children.length === 0) {
+            educationItems.forEach(item => {
+              const div = document.createElement('div');
+              div.className = 'timeline-item';
+              const h3 = document.createElement('h3'); h3.textContent = item.title || 'Education';
+              const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = item.meta || '';
+              div.appendChild(h3); if (meta.textContent) div.appendChild(meta);
+              edu.appendChild(div);
+            });
+          }
+        }
+
+        if (experienceItems.length) {
+          const container = document.getElementById('experience');
+          container.innerHTML = '';
+          experienceItems.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'timeline-item';
+            const h3 = document.createElement('h3'); h3.textContent = item.title || 'Experience';
+            const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = item.meta || '';
+            const ul = document.createElement('ul');
+            (item.bullets || []).slice(0, 5).forEach(b => { const li = document.createElement('li'); li.textContent = b; ul.appendChild(li); });
+            div.appendChild(h3); if (meta.textContent) div.appendChild(meta); div.appendChild(ul);
+            container.appendChild(div);
+          });
+        }
+      } catch (e) {
+        console.warn('Resume auto-population failed:', e);
+      }
+    })();
+  </script>
+</body>
+</html>

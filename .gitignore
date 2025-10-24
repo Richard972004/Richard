@@ -1,0 +1,13 @@
+# Dependencies and caches
+node_modules/
+.cache/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/dist/
+/build/
+.out/
